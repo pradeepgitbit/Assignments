@@ -28,3 +28,36 @@
 
 - Looping (for/while): 
     - for i in range(5): print(i)
+---
+# Que-3 Compare and contrast mutable and immutable objects in Python with examples.
+**Ans**
+- In Python, mutable objects can be changed after they are created, while immutable objects cannot.
+
+- **Mutable Objects:**
+    - Mutable objects allow in-place modification of their internal state without changing their unique identity (memory address).
+
+    - Examples:
+
+        - Lists: Ordered collections of items, allowing additions, removals, and modifications of elements.
+
+        - Dictionaries: Collections of key-value pairs, where entries can be added, updated, or removed.
+
+        - Sets: Unordered collections of unique elements, which can be modified by adding or removing items.
+
+
+        - User-defined classes: Most custom classes in Python are mutable by default.
+
+- **Immutable Objects:**
+
+    - Immutable objects cannot be altered after creation. Any operation that appears to modify an immutable object actually creates a new object in memory, and the variable is then reassigned to this new object.
+
+    - Examples:
+
+        - Numbers (int, float, complex, bool): Numeric values are fixed once created.
+
+        - Strings (str): Sequences of characters whose content cannot be changed.
+
+        - Tuples: Ordered collections of elements (similar to lists but immutable). The contents cannot be changed, although a tuple can contain mutable items.
+
+        - Frozensets: An immutable version of a set.
+        - Bytes: Immutable sequences of bytes.
