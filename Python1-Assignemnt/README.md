@@ -61,3 +61,20 @@
 
         - Frozensets: An immutable version of a set.
         - Bytes: Immutable sequences of bytes.
+---
+# Que-4. Discuss the different types of operators in Python and provide examples of how they are used.
+**Ans:**
+
+**Python supports several types of operators to manipulate data:**
+
+- Arithmetic: +, -, *, /, % (modulus), ** (exponentiation), // (floor division).
+
+- Comparison: == (equal), != (not equal), >, <, >=, <=.
+
+- Logical: and, or, not.
+
+- Assignment: =, +=, -=, *=, /=.
+
+- Membership: in, not in (checks for existence).
+
+- Identity: is, is not (checks if objects are the same memory location). 
