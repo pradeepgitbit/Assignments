@@ -15,4 +15,16 @@
 ---
 # Que-2 Describe the role of predefined keywords in Python and provide examples of how they are used in a program.
 **Ans:**
-- 
+- Keywords are the fundamental building blocks of Python code and are crucial for the interpreter to understand the program's logic.
+- Predefined keywords are reserved words with special meanings that define the language's syntax and structure.
+- They cannot be used as variable names, function names, or any other identifiers, as this would cause a SyntaxError.
+
+**Examples:**
+- if, else, while, def, class, import, True, False, None, break.
+
+**Usage:**
+- Control Flow (if/elif/else): 
+    - if x > 10: print("High")
+
+- Looping (for/while): 
+    - for i in range(5): print(i)
