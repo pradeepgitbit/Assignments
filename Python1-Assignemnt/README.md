@@ -11,3 +11,8 @@
 - **Multi-Paradigm:** It supports procedural, object-oriented (OOP), and functional programming, allowing developers to choose the best style.
 
 - **Cross-Platform Portability:** Code written on one OS (Windows, Mac, Linux) runs on others with little to no modification.
+---
+---
+# Que-2 Describe the role of predefined keywords in Python and provide examples of how they are used in a program.
+**Ans:**
+- 
