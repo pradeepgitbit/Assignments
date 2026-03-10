@@ -78,3 +78,52 @@
 - Membership: in, not in (checks for existence).
 
 - Identity: is, is not (checks if objects are the same memory location). 
+---
+# Que-5. Explain the concept of type casting in Python with examples.
+**Ans:**
+- Type casting in Python is the process of converting a value from one data type to another to ensure compatibility and correct operations. 
+
+- This can be done implicitly (automatically by Python) or explicitly (manually by the programmer using built-in functions).
+
+•	Implicit Casting: Python automatically converts types
+
+    - e.g.,  5 + 2.0 = 7.0 [int to float]).
+
+•	Explicit Casting: Using functions to convert types.
+
+-	int("10")   ---  Converts string "10" to integer 10.
+-	str(15)   --- Converts integer 15 to string "15".
+-	list((1, 2))   --- Converts a tuple to a list
+
+---
+# Que-6. 
+**Ans:**
+Conditional statements direct the flow of execution based on boolean conditions (True/False).
+
+- if: Executes code if the condition is true.
+- elif: Checks a new condition if the previous if was false.
+- else: Executes if all previous conditions are false.
+- Example:
+
+```python
+score = 85
+if score >= 90:
+    print("A")
+elif score >= 80:
+    print("B")
+else:
+    print("C") 
+```
+---
+# Que-7. Loops in Python
+**Ans:**
+
+- Loops are used for repeated execution of code blocks. 
+
+- for Loop: Used to iterate over a sequence (list, string, range).
+    - Use Case: Iterating through a known number of items.
+    - Example: for i in range(3): print(i)
+- while Loop: Repeats as long as a condition remains true.
+    - Use Case: Repeating until a specific condition is met, often when the number of iterations is unknown.
+    - Example: while x < 5: x += 1
+- break / continue: Used to exit a loop early or skip an iteration.
