@@ -101,3 +101,4 @@ for job_card in job_cards:
         print(f"Location: {location_element.text.strip()}")
         print("-" * 20)
 ```
+- run ``` python3 webscrape_file_name.py```
