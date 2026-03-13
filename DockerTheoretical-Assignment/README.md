@@ -46,7 +46,7 @@ Inside this directory, place your application code and any dependency files (e.g
 
 2. **Write the Dockerfile**
 
-- Create a file named ```dockerfile``` (with no file extension) in your project directory and add the necessary instructions. Each instruction creates a new layer in the Docker image. 
+- Create a file named ```Dockerfile``` (with no file extension) in your project directory and add the necessary instructions. Each instruction creates a new layer in the Docker image. 
 
 **for our Python application:**
 ```dockerfile
@@ -64,7 +64,7 @@ RUN pip install -r requirements.txt
 COPY . . 
 
 # Run the application when the container starts
-CMD ["python", "app.py"]
+CMD ["python", "run.py"]
 ``` 
 3. **Build the Docker Image**
 
