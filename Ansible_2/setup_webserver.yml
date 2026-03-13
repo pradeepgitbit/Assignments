@@ -1,0 +1,19 @@
+---
+- name: Configure Apache Web Server
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+    
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: present
+
+    - name: start and enable apache service
+      service:
+        name: apache2
+        state: started
+        enabled: yes
