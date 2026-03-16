@@ -1,9 +1,7 @@
-# Que->  Use tools like JMeter or Gatling to perform load testing on a web
-application and analyze the results to identify performance bottlenecks.?
+# Que->  Use tools like JMeter or Gatling to perform load testing on a web-application and analyze the results to identify performance bottlenecks.?
 
 Below is a **project** for **Load Testing a Web Application using Apache JMeter** with CI automation using **Jenkins**.
 
-You can copy these files exactly and push to **GitHub**.
 
 ---
 
