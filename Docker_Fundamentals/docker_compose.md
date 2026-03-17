@@ -1,4 +1,5 @@
-# How to work with Docker Compose
+# Docker Compose
+## How to work with Docker Compose
 
 - Basically docker compose will help to run multiple services
 - manage shared network and shared volume in structured way
